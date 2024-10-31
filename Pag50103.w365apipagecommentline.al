@@ -10,7 +10,8 @@ page 50103 w365apipagecommentline
     EntitySetName = 'commentLines';
     PageType = API;
     SourceTable = "Comment Line";
-    
+    ODataKeyFields = SystemId;
+
     layout
     {
         area(Content)

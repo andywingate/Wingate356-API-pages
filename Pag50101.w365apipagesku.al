@@ -10,6 +10,7 @@ page 50101 "w365-apipage-sku"
     EntitySetName = 'skus';
     PageType = API;
     SourceTable = "Stockkeeping Unit";
+    ODataKeyFields = SystemId;
 
     layout
     {

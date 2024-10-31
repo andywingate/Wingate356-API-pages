@@ -10,6 +10,7 @@ page 50100 "w365-apipage-item"
     EntitySetName = 'items';
     PageType = API;
     SourceTable = Item;
+    ODataKeyFields = SystemId;
 
     layout
     {
