@@ -11,6 +11,8 @@ page 50104 w365apipageappentry
     PageType = API;
     SourceTable = "Approval Entry";
     ODataKeyFields = SystemId;
+    ChangeTrackingAllowed = true;
+    Extensible = false;
 
     layout
     {
